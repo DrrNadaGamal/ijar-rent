@@ -435,7 +435,7 @@ export function seed(now = Date.now()) {
   const today = dayKey(now);
   const s = {
     resetAt: now, counters: { c: 0, p: 0, l: 0, t: 0, r: 0, receipt: 0 }, keys: [], audit: [], settings: { ...DEFAULTS },
-    company: { name: 'Al Amal Property Management', nameAr: 'الأمل لإدارة العقارات' },
+    company: { name: 'Amal Property Management', nameAr: 'الأمل لإدارة العقارات' },
     users: [
       { id: 'u-owner', pin: '1111', name: 'Hossam Barakat', nameAr: 'حسام بركات', role: 'owner' },
       { id: 'u-mgr', pin: '2222', name: 'Rana Idris', nameAr: 'رنا إدريس', role: 'manager' },
